@@ -1,0 +1,26 @@
+[
+    {
+        "log_id": 1,
+        "timestamp": "2026-04-02 09:36:47",
+        "event_type": "LOGIN",
+        "description": "User admin attempted login from IP 192.168.1.10",
+        "previous_hash": "0000000000000000000000000000000000000000000000000000000000000000",
+        "current_hash": "71dfa79309252c993ce8cadbdf8aefeb6b54332e99fa4464bbbbb5f70cebfbf1"
+    },
+    {
+        "log_id": 2,
+        "timestamp": "2026-04-02 09:37:53",
+        "event_type": "ACCESS",
+        "description": "User accessed and modified confidential_report.pdf",
+        "previous_hash": "71dfa79309252c993ce8cadbdf8aefeb6b54332e99fa4464bbbbb5f70cebfbf1",
+        "current_hash": "4ea2b78837ad218e333d1e59071aaea973ead1c4a9746d0b3c5be5c10750f0fb"
+    },
+    {
+        "log_id": 3,
+        "timestamp": "2026-04-02 09:38:23",
+        "event_type": "admin",
+        "description": "Admin changed firewall configuration",
+        "previous_hash": "4ea2b78837ad218e333d1e59071aaea973ead1c4a9746d0b3c5be5c10750f0fb",
+        "current_hash": "4744a16b91cf89d37df14867b011f9853621e6623a90b83ac2abcd8f282cf226"
+    }
+]
